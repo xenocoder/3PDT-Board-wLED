@@ -974,11 +974,11 @@ spacing: 4 holes (with body offset)
 <part name="JIG" library="mb_supply" deviceset="GND(T)" device=""/>
 <part name="SW2" library="mb_switches" deviceset="3PDT" device=""/>
 <part name="U$1" library="xc_library" deviceset="BOARDLINK" device=""/>
-<part name="D1" library="mb_diodes" deviceset="1N400X" device=".3"/>
+<part name="D1" library="mb_diodes" deviceset="1N400X" device=".3" value="1N4001"/>
 <part name="+9V" library="mb_supply" deviceset="+9V(T)" device=""/>
 <part name="A1" library="mb_supply" deviceset="A" device=""/>
 <part name="A2" library="mb_supply" deviceset="A" device=""/>
-<part name="R1" library="mb_resistors" deviceset="6MM" device=".3"/>
+<part name="R1" library="mb_resistors" deviceset="6MM" device=".3" value="4.7k"/>
 <part name="D2" library="mb_diodes" deviceset="LED" device="3MM"/>
 <part name="B1" library="mb_supply" deviceset="B" device=""/>
 <part name="B2" library="mb_supply" deviceset="B" device=""/>
@@ -1016,9 +1016,9 @@ spacing: 4 holes (with body offset)
 <attribute name="NAME" x="26.924" y="53.34" size="1.778" layer="95"/>
 <attribute name="VALUE" x="39.878" y="47.752" size="1.778" layer="96"/>
 </instance>
-<instance part="D1" gate="1" x="55.88" y="35.56" smashed="yes" rot="R270">
-<attribute name="NAME" x="57.8866" y="39.116" size="1.778" layer="95" font="vector" rot="R270"/>
-<attribute name="VALUE" x="52.2986" y="39.878" size="1.778" layer="96" font="vector" rot="R270"/>
+<instance part="D1" gate="1" x="55.88" y="38.1" smashed="yes" rot="R90">
+<attribute name="NAME" x="53.8734" y="34.544" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="59.4614" y="33.782" size="1.778" layer="96" font="vector" rot="R90"/>
 </instance>
 <instance part="+9V" gate="+9V" x="55.88" y="27.94" smashed="yes" rot="R180">
 <attribute name="VALUE" x="57.785" y="24.765" size="1.778" layer="96" rot="R180"/>
@@ -1122,7 +1122,7 @@ spacing: 4 holes (with body offset)
 <pinref part="A2" gate="A" pin="A"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="60.96" y1="45.72" x2="55.88" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="D1" gate="1" pin="A"/>
+<pinref part="D1" gate="1" pin="C"/>
 <wire x1="55.88" y1="40.64" x2="55.88" y2="45.72" width="0.1524" layer="91"/>
 <junction x="55.88" y="45.72"/>
 </segment>
@@ -1154,9 +1154,9 @@ spacing: 4 holes (with body offset)
 </net>
 <net name="+9V" class="0">
 <segment>
-<pinref part="D1" gate="1" pin="C"/>
 <pinref part="+9V" gate="+9V" pin="+9V"/>
-<wire x1="55.88" y1="33.02" x2="55.88" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="D1" gate="1" pin="A"/>
+<wire x1="55.88" y1="30.48" x2="55.88" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

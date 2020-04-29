@@ -1,0 +1,21 @@
+Partlist
+
+Exported from 3PDT Board wLED.brd at 4/25/20 10:10 AM
+
+EAGLE Version 9.5.2 Copyright (c) 1988-2019 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value          Package   Library      Position (mm)         Orientation
+
++9V      +9V(T)         SQUARE    mb_supply    (26.47 5.13)          R0
+D1       1N4001         DO41-3    mb_diodes    (22.982 5.757)        R270
+D2       LED3MM         LED3MM    mb_diodes    (26.95 11.6)          R270
+G        GND(T)         SQUARE    mb_supply    (26.532 2.432)        R0
+JIG      GND(T)         SQUARE    mb_supply    (2.032 18.542)        R0
+JIN                     SQUARE    mb_supply    (2.032 21.082)        R0
+JOG      GND(T)         SQUARE    mb_supply    (25.987 18.542)       R0
+JOT                     SQUARE    mb_supply    (25.987 21.082)       R0
+R1       4.7k           R0207/3   mb_resistors (23 16)               R270
+SW2      3PDT           3PDT      mb_switches  (12.7 8.89)           R0
+U$1      BOARDLINK      BOARDLINK xc_library   (9.906 19.685)        R0
