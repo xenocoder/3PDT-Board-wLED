@@ -445,16 +445,14 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="23.653" y="4.6508" size="1.27" layer="25" ratio="12" rot="R90"/>
 <attribute name="VALUE" x="25.812" y="3.838" size="1.27" layer="27" ratio="12" rot="R90"/>
 </element>
-<element name="+9V1" library="mb_supply" package="SQUARE" value="+9V(T)" x="26.47" y="5.13" smashed="yes">
-<attribute name="NAME" x="27.74" y="4.495" size="1.27" layer="25" ratio="12"/>
+<element name="+9V" library="mb_supply" package="SQUARE" value="+9V(T)" x="26.47" y="5.13" smashed="yes">
+<attribute name="NAME" x="28.805" y="3.44" size="1.016" layer="25" ratio="12" rot="R90"/>
 </element>
 <element name="R1" library="mb_resistors" package="R0207/3" value="" x="23" y="16" smashed="yes" rot="R270">
 <attribute name="NAME" x="22.365" y="17.27" size="1.27" layer="25" font="vector" ratio="12" rot="R270"/>
 <attribute name="VALUE" x="20.46" y="17.27" size="1.27" layer="27" font="vector" ratio="12" rot="R270"/>
 </element>
-<element name="D2" library="mb_diodes" package="LED3MM" value="LED3MM" x="26.95" y="11.6" smashed="yes" rot="R270">
-<attribute name="NAME" x="25.172" y="10.711" size="0.8128" layer="25" ratio="12" rot="R90"/>
-</element>
+<element name="D2" library="mb_diodes" package="LED3MM" value="LED3MM" x="26.95" y="11.6" smashed="yes" rot="R270"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -555,7 +553,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </signal>
 <signal name="+9V">
 <contactref element="D1" pad="C"/>
-<contactref element="+9V1" pad="1"/>
+<contactref element="+9V" pad="1"/>
 <wire x1="23.018" y1="1.933" x2="26.215" y2="5.13" width="0.4064" layer="1"/>
 <wire x1="26.215" y1="5.13" x2="26.47" y2="5.13" width="0.4064" layer="1"/>
 </signal>

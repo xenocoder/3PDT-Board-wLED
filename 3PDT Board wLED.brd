@@ -442,15 +442,13 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="SW2" library="mb_switches" package="3PDT" value="3PDT" x="12.7" y="8.89" smashed="yes"/>
 <element name="U$1" library="xc_library" package="BOARDLINK" value="BOARDLINK" x="9.906" y="19.685" smashed="yes"/>
 <element name="D1" library="mb_diodes" package="DO41-3" value="1N4001" x="22.982" y="5.757" smashed="yes" rot="R270">
-<attribute name="NAME" x="22.347" y="6.8492" size="1.27" layer="25" ratio="12" rot="R270"/>
-<attribute name="VALUE" x="20.188" y="7.662" size="1.27" layer="27" ratio="12" rot="R270"/>
+<attribute name="VALUE" x="22.588" y="6.762" size="0.6096" layer="27" ratio="12" rot="R270"/>
 </element>
 <element name="+9V" library="mb_supply" package="SQUARE" value="+9V(T)" x="26.47" y="5.13" smashed="yes">
 <attribute name="NAME" x="28.805" y="3.44" size="1.016" layer="25" ratio="12" rot="R90"/>
 </element>
 <element name="R1" library="mb_resistors" package="R0207/3" value="4.7k" x="23" y="16" smashed="yes" rot="R270">
-<attribute name="NAME" x="22.365" y="17.27" size="1.27" layer="25" font="vector" ratio="12" rot="R270"/>
-<attribute name="VALUE" x="20.46" y="17.27" size="1.27" layer="27" font="vector" ratio="12" rot="R270"/>
+<attribute name="VALUE" x="22.36" y="17.57" size="1.27" layer="27" font="vector" ratio="12" rot="R270"/>
 </element>
 <element name="D2" library="mb_diodes" package="LED3MM" value="LED3MM" x="26.95" y="11.6" smashed="yes" rot="R270"/>
 </elements>
